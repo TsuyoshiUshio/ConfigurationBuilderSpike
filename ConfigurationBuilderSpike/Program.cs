@@ -14,7 +14,7 @@ namespace ConfigurationBuilderSpike
             Environment.SetEnvironmentVariable("SOME_HOST_NAME", "EnvironmentVariablesHostName");
             // Only AppSettings set. SOME_SECRET
 
-            var builder = new ConfigurationBuilder();
+            IConfigurationBuilder builder = new ConfigurationBuilder();
 
             const string APP_SETTINGS = "appsettings.jso";
 
