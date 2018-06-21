@@ -16,7 +16,7 @@ namespace ConfigurationBuilderSpike
 
             IConfigurationBuilder builder = new ConfigurationBuilder();
 
-            const string APP_SETTINGS = "appsettings.jso";
+            const string APP_SETTINGS = "appsettings.json";
 
             if (File.Exists(APP_SETTINGS))
             {
